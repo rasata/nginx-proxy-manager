@@ -54,8 +54,14 @@ so that the barrier for entry here is low.
 ## Getting started
 
 Please consult the [installation instructions](doc/INSTALL.md) for a complete guide or
-if you just want to get up and running in the quickest time possible, grab all the files in the `doc/example/` folder and run `docker-compose up -d` 
 
+Pre-requisities to run in the folder: 
+- install nodejs
+- at the root of the folder do 
+ -- `npm install` # this will install all necessary nodejs tools & script 
+ -- `npm run build` # this will compile reactjs script to js 
+
+if you just want to get up and running in the quickest time possible, grab all the files in the `doc/example/` folder and run `docker-compose up -d` 
 
 ## Administration
 
